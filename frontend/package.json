@@ -1,0 +1,19 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild app.css --minify --bundle --outfile=../public/css/app.css",
+    "watch": "esbuild app.css --watch --bundle --outfile=../public/css/app.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.14.13"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
